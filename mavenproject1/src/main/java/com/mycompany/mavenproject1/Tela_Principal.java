@@ -40,9 +40,13 @@ public class Tela_Principal extends javax.swing.JPanel {
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
 
+        jInternalFrame1.setClosable(true);
+        jInternalFrame1.setIconifiable(true);
         jInternalFrame1.setTitle("Sistema para gestão de serviços - ver 1.3");
         jInternalFrame1.setVisible(true);
 
@@ -121,6 +125,15 @@ public class Tela_Principal extends javax.swing.JPanel {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Relatório");
+
+        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.ALT_DOWN_MASK));
+        jMenuItem4.setText("Clientes");
+        jMenu2.add(jMenuItem4);
+
+        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.ALT_DOWN_MASK));
+        jMenuItem5.setText("Serviços");
+        jMenu2.add(jMenuItem5);
+
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("Sobre");
@@ -191,6 +204,8 @@ public class Tela_Principal extends javax.swing.JPanel {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables

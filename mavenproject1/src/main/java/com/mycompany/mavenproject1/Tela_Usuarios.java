@@ -45,6 +45,8 @@ public class Tela_Usuarios extends javax.swing.JPanel {
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
 
+        jInternalFrame1.setClosable(true);
+        jInternalFrame1.setIconifiable(true);
         jInternalFrame1.setTitle("Usuários");
         jInternalFrame1.setVisible(true);
 
@@ -73,7 +75,7 @@ public class Tela_Usuarios extends javax.swing.JPanel {
 
         jLabel7.setText("* Perfil");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "User", " " }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);

@@ -46,6 +46,8 @@ public class Tela_cliente extends javax.swing.JPanel {
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
 
+        jInternalFrame1.setClosable(true);
+        jInternalFrame1.setIconifiable(true);
         jInternalFrame1.setTitle("Clientes");
         jInternalFrame1.setVisible(true);
 
